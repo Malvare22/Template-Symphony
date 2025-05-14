@@ -1,4 +1,4 @@
 controllers:
     resource: '../src/Controller/'
     type: attribute
-    prefix: /app17
+    prefix: /hola
