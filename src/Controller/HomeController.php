@@ -12,7 +12,7 @@ final class HomeController extends AbstractController
 public function index(): Response
 {
     return $this->render('home/base.html.twig', [
-            'app_name' => $_ENV['APP_NAME'],
+            'app_name' => 'Fireploy App',
         ]);
 }
 }
